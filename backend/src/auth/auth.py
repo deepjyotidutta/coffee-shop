@@ -3,7 +3,7 @@ from flask import request, _request_ctx_stack
 from functools import wraps
 from jose import jwt
 from urllib.request import urlopen
-
+import sys
 
 AUTH0_DOMAIN = 'dev-br-wgpeo.us.auth0.com'
 ALGORITHMS = ['RS256']
@@ -115,6 +115,7 @@ def get_rsa_key(token):
         }, 401)
         return rsa_key
     except Exception:
+        print(sys.exc_info())
         raise AuthError({
                 'code': 'invalid_header',
                 'description': 'Unable to verify token header.'

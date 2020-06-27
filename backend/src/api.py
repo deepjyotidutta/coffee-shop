@@ -9,7 +9,7 @@ import sys
 
 app = Flask(__name__)
 setup_db(app)
-#CORS(app)
+CORS(app)
 
 '''
 @TODO uncomment the following line to initialize the datbase
@@ -128,7 +128,7 @@ def update_drink(payload,id):
         input_title = req.get('title')
         if input_recipe is not None :
             print('LOG INSIDE input_recipe')
-            drink.recipe = json.dumps([input_recipe])
+            drink.recipe = json.dumps(input_recipe)
         if input_title is not None:
             drink.title = input_title
         drink.update()
