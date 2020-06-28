@@ -96,6 +96,15 @@
 					"request": {
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Mocha Chocolate\",\n    \"recipe\": [{\n        \"name\": \"Half n Half\",\n        \"color\": \"red\",\n        \"parts\": 1\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"blue\",\n        \"parts\": 2\n    }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "localhost:5000/drinks",
 							"host": [
@@ -128,6 +137,15 @@
 					"request": {
 						"method": "PATCH",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Mocha Chocolate\",\n    \"recipe\": [{\n        \"name\": \"Half n Half\",\n        \"color\": \"red\",\n        \"parts\": 1\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"blue\",\n        \"parts\": 2\n    }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "localhost:5000/drinks/1",
 							"host": [
@@ -289,6 +307,15 @@
 						},
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Mocha Chocolate\",\n    \"recipe\": [{\n        \"name\": \"Half n Half\",\n        \"color\": \"red\",\n        \"parts\": 1\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"blue\",\n        \"parts\": 2\n    }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "localhost:5000/drinks",
 							"host": [
@@ -331,6 +358,15 @@
 						},
 						"method": "PATCH",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Mocha Chocolate\",\n    \"recipe\": [{\n        \"name\": \"Half n Half\",\n        \"color\": \"red\",\n        \"parts\": 1\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"blue\",\n        \"parts\": 2\n    }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "localhost:5000/drinks/1",
 							"host": [
@@ -394,7 +430,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im1fWV9hQURNTTR6c1lsWlRMWEJLRSJ9.eyJpc3MiOiJodHRwczovL2Rldi1ici13Z3Blby51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVmMjZjZDk3Nzk3YzEwMDEzNzAxYjNjIiwiYXVkIjoiY29mZmVlc2hvcCIsImlhdCI6MTU5MzIwMzY2MCwiZXhwIjoxNTkzMjkwMDYwLCJhenAiOiI4d0RPMm53Z2lIWGtMTzJIZ1JYTE9HOEZhRUowMjJMbSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.JzKRj4AwToU7WxyPlHRK1aL4NDuHIuGz3JwxNGk6C-VFrT7HCsrq1hO3SO-ucy_cx4S_JPF-LdX4XEO9vBxk1sZkUU2Qe39srB-e7toijbvp4ESBwVNjtiZNmHzg3HZUPyIKNtcgL1_bv3oQfubmpoSNflYLu8cqyNu-DLHBYVni9lashqImmcen03_nrPJvu_yYNPEa93f94nTe4E0ap2Jqyz97eU9fk_QP2cwl4WW-VjjQEsCDN_-xctSNBaft4M-Nduy0mQk7U7M_5b184juq4qspiXNtNJymfa88rTO7O8eIj3CvKgmAz_L2S_zgPpdZ06tFr8Iqu3V4_MUURw",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im1fWV9hQURNTTR6c1lsWlRMWEJLRSJ9.eyJpc3MiOiJodHRwczovL2Rldi1ici13Z3Blby51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVmMjZjZDk3Nzk3YzEwMDEzNzAxYjNjIiwiYXVkIjoiY29mZmVlc2hvcCIsImlhdCI6MTU5MzI5MjgyMywiZXhwIjoxNTkzMzc5MjIzLCJhenAiOiI4d0RPMm53Z2lIWGtMTzJIZ1JYTE9HOEZhRUowMjJMbSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.JbRLqDb1cQs3l0aY01UDjWU6y4snOxukL0hEcek8tmbQE9wisfyQTBAn4y_3Rag8YH5nQ9li4a5Tf5WkSNRpUNreSrln1AP-1nD6feYjV-lvIYVc7L5EeRv3-MtMIJuyXiqI3VR_JRBsD4kpXFoX7idQpayT49UvMrXZLSQrQhcvrJ5yq6MLUGMqAkbL7ACrObKm3P4GKvFmk1DxPn1HL_PUsoE_hyqXebcKpoU2Kcz5z8zBRmlgRWLRzRomofVgT_B4P-iisfbc-C9KLsTelOrpVZj_wzHO3YKcWsfsG1QaiysuGzJfhCX2lkkJ1Ri7nKqUXcGxobYZk3LheKwgIg",
 						"type": "string"
 					}
 				]
@@ -547,7 +583,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\": \"Vanilla Latte\",\n    \"recipe\": [{\n        \"name\": \"Milk\",\n        \"color\": \"white\",\n        \"parts\": 1\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"black\",\n        \"parts\": 2\n    }]\n}",
+							"raw": "{\n    \"title\": \"Christmas Blend 2\",\n    \"recipe\": [{\n        \"name\": \"Half n Half\",\n        \"color\": \"white\",\n        \"parts\": 2\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"black\",\n        \"parts\": 2\n    }]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -610,7 +646,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\": \"Water5\"\n}"
+							"raw": "{\n    \"title\": \"Flat White\",\n    \"recipe\": [{\n        \"name\": \"Half n Half\",\n        \"color\": \"white\",\n        \"parts\": 3\n    },{\n    \t \"name\": \"Espresso\",\n        \"color\": \"black\",\n        \"parts\": 3\n    }]\n}"
 						},
 						"url": {
 							"raw": "localhost:5000/drinks/1",
@@ -675,7 +711,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im1fWV9hQURNTTR6c1lsWlRMWEJLRSJ9.eyJpc3MiOiJodHRwczovL2Rldi1ici13Z3Blby51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVmNTI3MjkzNDE2MDUwMDE5ZGQ1MWY1IiwiYXVkIjoiY29mZmVlc2hvcCIsImlhdCI6MTU5MzIwMjIzNSwiZXhwIjoxNTkzMjg4NjM1LCJhenAiOiI4d0RPMm53Z2lIWGtMTzJIZ1JYTE9HOEZhRUowMjJMbSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRyaW5rcyIsImdldDpkcmlua3MtZGV0YWlsIiwicGF0Y2g6ZHJpbmtzIiwicG9zdDpkcmlua3MiXX0.TMRu6-eq6UDw3MnGmTVRqtGPWvKGtuxN35m9fiytbqytoYFWBkvFqu2wIMeRcJF_uXNxIEbRVk2y8skFXjORD1tTFbgZ67PkQsC0_87yGycAhFaP8tQnXcmK8TBCex3I3-9R9gEzBfyJiUG4MqFIfVW3OY4iUGTfRRnjiM2FS8kGEmGXqlFP3MUcqS0TwOIOWkJJ4gdVcD_P3PWAPSV1eDwvj0uP0FaTpttPnIKZok1zHl2W3gzsucVWz5NwzXugj9HPa0sZBLjE-yg78PYLKsCM-bLXS0Q3sgSG3lr3KZTc28FyLwqIY8UaKJkDDIfjaPAiIXdG1WGw64ES2GmNBw",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im1fWV9hQURNTTR6c1lsWlRMWEJLRSJ9.eyJpc3MiOiJodHRwczovL2Rldi1ici13Z3Blby51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVmNTI3MjkzNDE2MDUwMDE5ZGQ1MWY1IiwiYXVkIjoiY29mZmVlc2hvcCIsImlhdCI6MTU5MzI5MDE5NSwiZXhwIjoxNTkzMzc2NTk1LCJhenAiOiI4d0RPMm53Z2lIWGtMTzJIZ1JYTE9HOEZhRUowMjJMbSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRyaW5rcyIsImdldDpkcmlua3MtZGV0YWlsIiwicGF0Y2g6ZHJpbmtzIiwicG9zdDpkcmlua3MiXX0.OgXCVR7_JkXK8miCxGUI0bVJ1wVthLkeMcaETEZ0w1mPjjVtuCHo4YQaVuRALjNqBb8SMqGbKgax2El7T_lEkJidBsWJJntECev6Jp7h2CJ_hU_guIdRbqY3dSzZFDyOOeHcbtFc-LnzhG8coPu22FWBoGf7N64r-BKS8JdBN96IHqzXn4jPIDZaqUD_vVwonP7cL3RUOxXkevAkRFDdC4b2irgKqozeTOJaXd-xCvFhXj0YSNa-8UjkUDFyUNRtdtTP5pb5zJCiUTFjhtqHHn7Nrknbi2aoH7ApXKWJRYS89tl7X4GoyEBiq_H7TDBsvmyU8hBvDYpl93S1qBDr4w",
 						"type": "string"
 					}
 				]

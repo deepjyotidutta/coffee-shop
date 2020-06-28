@@ -99,7 +99,7 @@ def create_drink(jwt):
         drink.insert()
     except BaseException:
         print(sys.exc_info())
-        abort(400)
+        abort(500)
     return jsonify({'success': True, 'drinks': [drink.long()]})
 
 
